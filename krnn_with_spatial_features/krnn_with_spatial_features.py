@@ -9,35 +9,31 @@ Imbalanced kNN with locally sensitive decision rule
 # Importing libraries #
 #######################
 
+import collections
+import copy
+import math
+import os
+import random
+import sys
+
 import numpy as np
 import pandas as pd
-import os
-from scipy.io import arff
-from sklearn.neighbors import NearestNeighbors
-import math
-from scipy.spatial import distance_matrix
-import operator
-from sklearn import preprocessing
-import copy
-import collections
-from scipy.stats import zscore
-from scipy.stats import ttest_ind
-import math
-import scipy.stats as st
-import imblearn.over_sampling as imb_os
-from costcla.models import BayesMinimumRiskClassifier
-from sklearn.neighbors import KNeighborsClassifier
-import sklearn
-from sklearn.metrics import roc_auc_score
-import scipy.stats.mstats
-import random
-from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
-import sys
-import scipy.stats
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import KFold, ShuffleSplit
+
+from scipy.io import arff
+from scipy.spatial import distance_matrix
+from scipy.stats import ttest_ind
+import scipy.stats as st
+import scipy.stats.mstats
+
+from sklearn import preprocessing
+from sklearn.metrics import roc_auc_score
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
+import sklearn
+
+import imblearn.over_sampling as imb_os
 
 #%%
 

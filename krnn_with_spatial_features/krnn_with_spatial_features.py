@@ -28,6 +28,7 @@ import scipy.stats.mstats
 
 from sklearn import preprocessing
 from sklearn.metrics import roc_auc_score
+from sklearn.model_selection import ShuffleSplit
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder

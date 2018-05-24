@@ -1,13 +1,12 @@
 # KRNN with spatial features
 
- This technique is described in details in
+Implementation of the technique described in
         
-_László et al (2018): Improving the Performance of the k Rare Class 
- Nearest Neighbor Classifier by the Ranking of Point Patterns. 
- In: Lecture Notes in Computer Science, vol 10833, p. 265-283
- doi: [https://doi.org/10.1007/978-3-319-90050-6_15][https://doi.org/10.1007/978-3-319-90050-6_15]
- link: [https://link.springer.com/chapter/10.1007/978-3-319-90050-6_15][https://link.springer.com/chapter/10.1007/978-3-319-90050-6_15]
- preprint: [PREPRINT][https://drive.google.com/open?id=1aQct5L6DgYvRnE6wDMKzekhZvxEyktGz]
+_László et al (2018): Improving the Performance of the k Rare Class Nearest Neighbor Classifier by the Ranking of Point Patterns. In: Lecture Notes in Computer Science, vol 10833, p. 265-283_
+
+* doi: [https://doi.org/10.1007/978-3-319-90050-6_15](https://doi.org/10.1007/978-3-319-90050-6_15)
+* link: [https://link.springer.com/chapter/10.1007/978-3-319-90050-6_15](https://link.springer.com/chapter/10.1007/978-3-319-90050-6_15)
+* preprint: [PREPRINT](https://drive.google.com/open?id=1aQct5L6DgYvRnE6wDMKzekhZvxEyktGz)
 
 ## Installation
 

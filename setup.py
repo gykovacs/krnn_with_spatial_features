@@ -4,12 +4,12 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
-setup(name='regseg',
+setup(name='KRNN_SF',
       version='0.1',
       description='KRNN with spatial features',
       long_description=readme(),
       classifiers=[
-              'Development Status :: 3 - Alpha',
+              'Development Status :: 3 - Beta',
               'License :: GPL3',
               'Programming Language :: Python :: 3.6',
               'Topic :: Image Processing'],
@@ -17,7 +17,7 @@ setup(name='regseg',
       author='Gyorgy Kovacs',
       author_email='gyuriofkovacs@gmail.com',
       license='GPL3',
-      packages=['krnn_with_spatial_features'],
+      packages=['KRNN_SF'],
       install_requires=[
               'numpy',
               'pandas',
@@ -25,5 +25,5 @@ setup(name='regseg',
               ],
       test_suite='nose.collector',
       tests_require=['nose'],
-      py_modules=['krnn_with_spatial_features'],
+      py_modules=['KRNN_SF'],
       zip_safe=False)

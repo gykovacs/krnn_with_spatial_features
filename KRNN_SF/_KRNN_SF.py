@@ -241,7 +241,7 @@ class KRNN_SF(object):
         d = np.sqrt(max(0, t0.T.dot(t0) - z * z)) # query point distance from pos-neg line
         d_normed = d / x0_len
 
-        alpha = 1.0
+        alpha = 0.3
         scale = alpha * np.sqrt( d_normed )
         
         return st.norm(z_normed, scale)
